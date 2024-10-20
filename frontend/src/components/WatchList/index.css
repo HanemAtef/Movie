@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    color: white !important;
+}
+
+.titleepar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../Assets/head.png);
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.tv {
+    background-color: hsl(201, 51%, 45%);
+    width: 80px;
+    padding-left: 8px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+
+}
+
+.deletebutton {
+    width: 30px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+}
+
+.del:hover {
+    fill: red;
+}
+
+.con {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.card_bg {
+    background-color: hsl(230, 59%, 14%);
+    border-radius: 5px;
+    color: white;
+
+}
+
+
+.imag {
+    height: 250px;
+    width: 170px;
+    object-fit: cover;
+}
+
+@media(max-width: 768px) {
+    .responsivecard {
+        width: 100%;
+    }
+
+    .imag {
+        height: 300px;
+        width: 100%;
+        object-fit: fill;
+    }
+
+}
